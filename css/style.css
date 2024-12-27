@@ -1,0 +1,23 @@
+body {
+  background-color: #2E5077;
+}
+
+.front {
+  background-color: #4DA1A9;
+}
+
+.front, .back {
+  width: 250px;
+  text-align: center;
+  border-radius: 5px;
+  height: 300px;
+}
+
+.back {
+  background-color: #79D7BE;
+  font-size: 200px;
+}
+.container {
+  display: grid;
+  grid-template-columns: 3fr 3fr 3fr;
+}
