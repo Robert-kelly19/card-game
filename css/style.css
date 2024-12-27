@@ -6,7 +6,7 @@ body {
   background-color: #4da1a9;
 }
 
-.front .back {
+.back .front {
   width: 250px;
   text-align: center;
   border-radius: 5px;
