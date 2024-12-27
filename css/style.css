@@ -1,12 +1,12 @@
 body {
-  background-color: #2E5077;
+  background-color: #2e5077;
 }
 
 .front {
-  background-color: #4DA1A9;
+  background-color: #4da1a9;
 }
 
-.front, .back {
+.front .back {
   width: 250px;
   text-align: center;
   border-radius: 5px;
@@ -14,7 +14,7 @@ body {
 }
 
 .back {
-  background-color: #79D7BE;
+  background-color: #79d7be;
   font-size: 200px;
 }
 
