@@ -17,6 +17,12 @@ body {
   z-index: 1;
 }
 
+.front p {
+  color: white;
+  font-size: xx-large;
+  text-align: center
+}
+
 .back,
 .front {
   position: absolute;
@@ -42,4 +48,24 @@ body {
 
 .card.flip {
   transform: rotateY(180deg);
+}
+
+@media (max-width: 425px) {
+  body {
+    overflow: hidden;
+  }
+  .card {
+    width: 75px;
+    height: 90px;
+  }
+
+  .back {
+    font-size: 65px;
+  }
+
+  .front p {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+  }
 }
