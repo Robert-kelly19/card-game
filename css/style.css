@@ -2,6 +2,12 @@ body {
   background-color: #2e5077;
 }
 
+section {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
 .card {
   position: relative;
   width: 200px;
@@ -30,8 +36,11 @@ body {
 
 .back {
   background-color: #79d7be;
-  font-size: 150px;
   transform: rotateY(180deg);
+}
+
+.back img {
+  height: 200px;
 }
 
 .container {
@@ -42,4 +51,5 @@ body {
 
 .card.flip {
   transform: rotateY(180deg);
+  transition: ease-out 0.5s;
 }
